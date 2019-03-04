@@ -1,0 +1,19 @@
+{
+  "name": "vue-storybook-example",
+  "version": "1.0.0",
+  "description": "vue-storybook-example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owlran/vue-storybook-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owlran/vue-storybook-example/issues"
+  },
+  "homepage": "https://github.com/owlran/vue-storybook-example#readme"
+}
