@@ -4,6 +4,7 @@
   "description": "vue-storybook-example",
   "main": "index.js",
   "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/owlran/vue-storybook-example/issues"
   },
-  "homepage": "https://github.com/owlran/vue-storybook-example#readme"
+  "homepage": "https://github.com/owlran/vue-storybook-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@storybook/vue": "^4.1.13",
+    "babel-loader": "^8.0.5",
+    "babel-preset-vue": "^2.0.2",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.8"
+  },
+  "dependencies": {
+    "vue": "^2.6.8"
+  }
 }
